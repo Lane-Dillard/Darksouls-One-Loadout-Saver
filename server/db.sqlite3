@@ -1,0 +1,83 @@
+CREATE TABLE 'users' (
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "username" VARCHAR(50) UNIQUE NOT NULL,
+    "password_hash" VARCHAR(255) NOT NULL,
+    "role" TEXT NOT NULL CHECK (role IN ('user', 'admin')) DEFAULT 'user',
+    "created_at" TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE 'weapons'(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "name" VARCHAR(255),
+    "strengthStatReq" VARCHAR(50),
+    "dexStatReq" VARCHAR(50),
+    "intStatReq" VARCHAR(50),
+    "faithStatReq" VARCHAR(50),
+    "image_URL" VARCHAR
+)
+
+Create TABLE 'helmets' (
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "name" VARCHAR(255),
+    "image_URL" VARCHAR
+)
+
+CREATE TABLE 'chestplate' (
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "name" VARCHAR(255),
+    "image_URL" VARCHAR
+)
+
+CREATE TABLE 'gauntlets' (
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "name" VARCHAR(255),
+    "image_URL" VARCHAR
+)
+
+CREATE TABLE 'legs' (
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "name" VARCHAR(255),
+    "image_URL" VARCHAR
+)
+
+CREATE TABLE 'rings' (
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "name" VARCHAR(255),
+    "image_URL" VARCHAR
+)
+
+CREATE TABLE 'loadouts' (
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "user_id" INTEGER,
+    "name" VARCHAR(255),
+    "weapon1Id" INTEGER,
+    "weapon2Id" INTEGER,
+    "helmetId" INTEGER,
+    "chestId" INTEGER,
+    "gauntletsId" INTEGER,
+    "legId" INTEGER,
+    "ring1Id" INTEGER,
+    "ring2Id" INTEGER,
+    FOREIGN KEY(`user_id`) REFERENCES `users`(`id`),
+    FOREIGN KEY(`weapon1Id`) REFERENCES `weapons`(`id`),
+    FOREIGN KEY(`weapon2Id`) REFERENCES `weapons`(`id`),
+    FOREIGN KEY(`helmetId`) REFERENCES `helmets`(`id`),
+    FOREIGN KEY(`chestId`) REFERENCES `chestplate`(`id`),
+    FOREIGN KEY(`gauntletsId`) REFERENCES `gauntlets`(`id`),
+    FOREIGN KEY(`legId`) REFERENCES `legs`(`id`),
+    FOREIGN KEY(`ring1Id`) REFERENCES `rings`(`id`),
+    FOREIGN KEY(`ring2Id`) REFERENCES `rings`(`id`)
+)
+
+Create TABLE 'comments' (
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "user_id" INTEGER,
+    "loadoutId" INTEGER,
+    "content" VARCHAR(255),
+    "created_at" TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY(`user_id`) REFERENCES `users`(`id`),
+    Foreign KEY(`loadoutId`) REFERENCES `loadouts`(`id`)
+)
+
+DROP TABLE IF EXISTS users;
+
