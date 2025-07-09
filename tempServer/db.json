@@ -1,0 +1,187 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "testing56@gmail.com",
+      "fullName": "Odiog",
+      "password": "Test@1234",
+      "isStaff": false
+    },
+    {
+      "id": "a63b",
+      "email": "asdf1234@gmail.com",
+      "fullName": "Test1",
+      "password": "asdf",
+      "isStaff": false
+    }
+  ],
+  "loadouts": [],
+  "loadouts_Stats": [],
+  "weapons": [
+    {
+      "id": 1,
+      "name": "Dagger",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Wpn_Dagger.png",
+      "strStatReq": 5,
+      "dexStatReq": 8,
+      "intStatReq": 0,
+      "faithStatReq": 0,
+      "weaponTypeId": 1
+    },
+    {
+      "id": 2,
+      "name": "Greatsword Of Artorias",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/greatsword_of_artorias.png",
+      "strStatReq": 24,
+      "dexStatReq": 18,
+      "intStatReq": 20,
+      "faithStatReq": 20,
+      "weaponTypeId": 3
+    }
+  ],
+  "helmets": [
+    {
+      "id": 1,
+      "name": "Helm of Artorias",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Helm%20of%20Artorias.png"
+    },
+    {
+      "id": 2,
+      "name": "Ornstein's Helm",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/ornsteins_helm.png"
+    },
+    {
+      "id": 3,
+      "name": "Elite Knight Helm",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/elite_knight_helm.png"
+    },
+    {
+      "id": 4,
+      "name": "Iron Helm",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/solaire_helm.png"
+    }
+  ],
+  "chestplate": [
+    {
+      "id": 1,
+      "name": "Armor of Artorias",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Armor%20of%20Artorias.png"
+    },
+    {
+      "id": 2,
+      "name": "Ornstein's Armor",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/ornstein's_armor_icon.png"
+    },
+    {
+      "id": 3,
+      "name": "Elite Knight Armor",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/elite_knight_armor.png"
+    },
+    {
+      "id": 4,
+      "name": "Armor Of The Sun",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/solaire_armor.png"
+    }
+  ],
+  "gauntlets": [
+    {
+      "id": 1,
+      "name": "Gauntlets of Artorias",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Gauntlets%20of%20Artorias.png"
+    },
+    {
+      "id": 2,
+      "name": "Ornstein's Gauntlets",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/ornsteins_gauntlets.png"
+    },
+    {
+      "id": 3,
+      "name": "Elite Knight Gauntlets",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/elite_knight_gauntlets.png"
+    },
+    {
+      "id": 4,
+      "name": "Iron Bracelet",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/solaire_brace.png"
+    }
+  ],
+  "legs": [
+    {
+      "id": 1,
+      "name": "Leggings of Artorias",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Leggings%20of%20Artorias.png"
+    },
+    {
+      "id": 2,
+      "name": "Ornstein's Leggings",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/ornstein's_leggings_icon.png"
+    },
+    {
+      "id": 3,
+      "name": "Elite Knight Leggings",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/elite_knight_leggings.png"
+    },
+    {
+      "id": 4,
+      "name": "Iron Leggins",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/solaire_legs.png"
+    }
+  ],
+  "rings": [
+    {
+      "id": 1,
+      "name": "Tiny Being's Ring",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls-3/life_ring.png"
+    },
+    {
+      "id": 2,
+      "name": "Cloranthy Ring",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/4004.png"
+    },
+    {
+      "id": 3,
+      "name": "Havel's Ring",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/4000.png"
+    },
+    {
+      "id": 4,
+      "name": "Ring Of Steel Protection",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/4020.png"
+    }
+  ],
+  "spells": [
+    {
+      "id": 1,
+      "name": "Soul Arrow",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Sorcery_-_Soul_Arrow.png",
+      "intStatReq": 10,
+      "faithStatReq": 0,
+      "typeId": 1,
+      "uses": 30,
+      "slots": 1
+    },
+    {
+      "id": 2,
+      "name": "Fireball",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Fireball.png",
+      "intStatReq": 0,
+      "faithStatReq": 0,
+      "typeId": 2,
+      "uses": 8,
+      "slots": 1
+    },
+    {
+      "id": 3,
+      "name": "Heal",
+      "image_url": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Heal.png",
+      "intStatReq": 0,
+      "faithStatReq": 12,
+      "typeId": 3,
+      "uses": 5,
+      "slots": 1
+    }
+  ],
+  "buildCategories": [],
+  "weaponCategories": [],
+  "spellCategories": []
+}
