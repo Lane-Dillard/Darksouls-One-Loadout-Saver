@@ -182,6 +182,120 @@
     }
   ],
   "buildCategories": [],
-  "weaponCategories": [],
-  "spellCategories": []
+  "weaponCategories": [
+    {
+      "id": 1,
+      "weaponTypeName": "Daggers"
+    },
+    {
+      "id": 2,
+      "weaponTypeName": "Straight Swords"
+    },
+    {
+      "id": 3,
+      "weaponTypeName": "Greatswords"
+    },
+    {
+      "id": 4,
+      "weaponTypeName": "Ultra Greatswords"
+    },
+    {
+      "id": 5,
+      "weaponTypeName": "Curved Swords"
+    },
+    {
+      "id": 6,
+      "weaponTypeName": "Katanas"
+    },
+    {
+      "id": 7,
+      "weaponTypeName": "Curved Greatswords"
+    },
+    {
+      "id": 8,
+      "weaponTypeName": "Piercing Swords"
+    },
+    {
+      "id": 9,
+      "weaponTypeName": "Axes"
+    },
+    {
+      "id": 10,
+      "weaponTypeName": "Great Axes"
+    },
+    {
+      "id": 11,
+      "weaponTypeName": "Hammers"
+    },
+    {
+      "id": 12,
+      "weaponTypeName": "Great Hammers"
+    },
+    {
+      "id": 13,
+      "weaponTypeName": "Fist & Claws"
+    },
+    {
+      "id": 14,
+      "weaponTypeName": "Spears"
+    },
+    {
+      "id": 15,
+      "weaponTypeName": "Halberds"
+    },
+    {
+      "id": 16,
+      "weaponTypeName": "Whips"
+    },
+    {
+      "id": 17,
+      "weaponTypeName": "Bows"
+    },
+    {
+      "id": 18,
+      "weaponTypeName": "Greatbows"
+    },
+    {
+      "id": 19,
+      "weaponTypeName": "Crossbows"
+    },
+    {
+      "id": 20,
+      "weaponTypeName": "Catalysts"
+    },
+    {
+      "id": 21,
+      "weaponTypeName": "Flames"
+    },
+    {
+      "id": 22,
+      "weaponTypeName": "Talismans"
+    },
+    {
+      "id": 23,
+      "weaponTypeName": "Small Shields"
+    },
+    {
+      "id": 24,
+      "weaponTypeName": "Standard Shields"
+    },
+    {
+      "id": 25,
+      "weaponTypeName": "Greatshields"
+    }
+  ],
+  "spellCategories": [
+    {
+      "id": 1,
+      "spellTypeName": "Sorceries"
+    },
+    {
+      "id": 2,
+      "spellTypeName": "Pyromancies"
+    },
+    {
+      "id": 3,
+      "spellTypeName": "Miracles"
+    }
+  ]
 }
